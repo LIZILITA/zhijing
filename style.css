@@ -4,6 +4,27 @@ html,body{
   min-width:260px;
   color:#333;
 }
+#imglist{
+	width: 130px;
+	margin: 0 auto;
+}
+.rotate_left
+{
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-moz-transform:rotate(7deg); /* Firefox */
+	-webkit-transform:rotate(7deg); /* Safari and Chrome */
+	-o-transform:rotate(7deg); /* Opera */
+	transform:rotate(7deg);
+}
+.polaroid
+{
+	width:85px;
+	padding: 10px;
+	background-color: #eee;
+	border:1px solid #BFBFBF;
+	box-shadow:2px 2px 4px #aaa;
+	border-radius: 5px;
+}
 #main{
   margin:30px auto;
   padding:15px;
@@ -17,15 +38,22 @@ img{
   height: auto;
   margin: auto;
 }
+#img-gif{
+  float: left;
+  width: auto;
+  height: auto;
+  border:5px solid white;
+  background:white;
+}
 #img-div{
-  margin:-5px;
-  margin-top:20px;
-  width:100%;
+  width: auto;
+  height: auto;
   border:5px solid white;
   background:white;
 }
 #img-caption{
   margin:15px;
+  text-align: center;
 }
 #headline{
   margin-top:50px;
