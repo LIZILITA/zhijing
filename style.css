@@ -11,11 +11,11 @@ html,body{
 }
 .rotate_left
 {
-	-ms-transform:rotate(30deg); /* IE 9 */
-	-moz-transform:rotate(30deg); /* Firefox */
-	-webkit-transform:rotate(30deg); /* Safari and Chrome */
-	-o-transform:rotate(30deg); /* Opera */
-	transform:rotate(30deg);
+	-ms-transform:rotate(2deg); /* IE 9 */
+	-moz-transform:rotate(2deg); /* Firefox */
+	-webkit-transform:rotate(2deg); /* Safari and Chrome */
+	-o-transform:rotate(2deg); /* Opera */
+	transform:rotate(2deg);
 }
 .polaroid
 {
