@@ -11,14 +11,15 @@ html,body{
 }
 .rotate_left
 {
-	-ms-transform:rotate(7deg); /* IE 9 */
-	-moz-transform:rotate(7deg); /* Firefox */
-	-webkit-transform:rotate(7deg); /* Safari and Chrome */
-	-o-transform:rotate(7deg); /* Opera */
-	transform:rotate(7deg);
+	-ms-transform:rotate(30deg); /* IE 9 */
+	-moz-transform:rotate(30deg); /* Firefox */
+	-webkit-transform:rotate(30deg); /* Safari and Chrome */
+	-o-transform:rotate(30deg); /* Opera */
+	transform:rotate(30deg);
 }
 .polaroid
 {
+  height:150px;
 	width:150px;
 	padding: 30px;
 	background-color: #eee;
@@ -33,13 +34,7 @@ html,body{
   border-radius:5px;
   background:#eee;
 }
-img{
-  float: left;
-  max-width: 100%;
-  display: block;
-  height: auto;
-  margin: auto;
-}
+
 #img-gif{
   float: left;
   width: auto;
@@ -60,14 +55,6 @@ img{
 #headline{
   margin-top:50px;
   text-align:left;
-}
-ul{
-  max-width:550px;
-  margin:0 auto;
-  text-align:left;
-}
-li{
-  margin: 10px;
 }
 blockquote{
   font-style: italic;
