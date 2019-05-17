@@ -6,7 +6,7 @@ html,body{
 }
 #imglist{
   float: left;
-	width: 130px;
+	width: 30%;
 	margin: 0 auto;
 }
 .rotate_left
@@ -34,6 +34,7 @@ html,body{
   background:#eee;
 }
 img{
+  float: left;
   max-width: 100%;
   display: block;
   height: auto;
