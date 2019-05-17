@@ -5,6 +5,7 @@ html,body{
   color:#333;
 }
 #imglist{
+  float: left;
 	width: 130px;
 	margin: 0 auto;
 }
