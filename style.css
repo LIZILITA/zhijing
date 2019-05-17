@@ -25,9 +25,9 @@ html,body{
 	background-color: #eee;
 }
 #de{
-  margin:0 auto;
-  width:300px;
-  height:300px;
+  text-align: center;
+  width:250px;
+  height:250px;
 }
 #main{
   margin:30px auto;
